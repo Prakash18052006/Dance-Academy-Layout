@@ -1,0 +1,27 @@
+{
+  "name": "project-4-dance-website",
+  "version": "1.0.0",
+  "description": "This is dance website using pure pug and node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Pud",
+    "and",
+    "Nodejs",
+    "Awensome",
+    "Project",
+    "of",
+    "dance",
+    "Website"
+  ],
+  "author": "Prakash Choudhary",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongoose": "^6.10.0",
+    "pug": "^3.0.3"
+  }
+}

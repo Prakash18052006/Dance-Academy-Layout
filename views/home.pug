@@ -1,0 +1,46 @@
+extends base.pug 
+
+block scripts
+  script(src='/static/index.js')
+  
+block style 
+    style
+      include ../static/style.css
+
+block content   
+    section#introSection 
+        div Welcome to Prakash's Dance Academy 
+
+        div.small Eat Sleep Dance Repeat 
+    section#missionSection 
+        h2 Academy Mission Section 
+        div.card  
+           h3 Dance Perfection  
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/dc1.jpg")
+                div.card-content    
+                    p This is the best dance academy 
+        div.card 
+           h3 Dance the way you like
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/dc2.jpg")
+                div.card-content    
+                    p This is the best dance academy              
+        div.card 
+           h3 Expert Teaching
+              div.card-box 
+                div.card-img 
+                    img(src="/static/img/dc3.jpg")
+                div.card-content    
+                    p This is the best dance academy          
+    section#sponsorsSection 
+        h2 Our sponsors     
+        #sponsors 
+            img(src="/static/img/apple.jpg", alt="Sponser Image", class="spImage")
+            img(src="/static/img/hp.jpg", alt="Sponser Image", class="spImage")
+            img(src="/static/img/ms.jpg", alt="Sponser Image", class="spImage")
+            img(src="/static/img/skype.jpg", alt="Sponser Image", class="spImage")
+            img(src="/static/img/nkp.jpg", alt="Sponser Image", class="spImage")
+            img(src="/static/img/PDA.jpg", alt="Sponser Image", class="spImage")       
